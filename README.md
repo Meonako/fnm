@@ -6,6 +6,8 @@
 
 > :rocket: Fast and simple Node.js version manager, built in Rust
 
+> [Changes in this repo](#fork-changes)
+
 <div align="center">
   <img src="./docs/fnm.svg" alt="Blazing fast!">
 </div>
