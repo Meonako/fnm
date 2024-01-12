@@ -238,3 +238,11 @@ cargo run -- --help # Will behave like `fnm --help`
 ```sh
 cargo test
 ```
+
+### Fork Changes
+
+- bump up some dependencies version
+- `list-remote` now print latest 60 versions in a table and not a long line feed
+- `list-remote` now have `--all` and `--lts` flag with `--all` print all version instead of latest 60 versions and `--lts` only print long-term support versions
+
+> These changes might not suit your need but I like it this way
