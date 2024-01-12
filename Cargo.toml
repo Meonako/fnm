@@ -9,33 +9,33 @@ repository = "https://github.com/Schniz/fnm"
 description = "Fast and simple Node.js version manager"
 
 [dependencies]
-serde = { version = "1.0.166", features = ["derive"] }
+serde = { version = "1.0.195", features = ["derive"] }
 clap = { version = "4.3.10", features = ["derive", "env"] }
-serde_json = "1.0.100"
-chrono = { version = "0.4.26", features = ["serde"] }
-tar = "0.4.38"
+serde_json = "1.0.111"
+chrono = { version = "0.4.31", features = ["serde"] }
+tar = "0.4.40"
 xz2 = "0.1.7"
 node-semver = "2.1.0"
 dirs = "5.0.1"
 colored = "2.0.4"
 zip = "0.6.6"
 tempfile = "3.6.0"
-indoc = "2.0.2"
-log = "0.4.19"
-env_logger = "0.10.0"
+indoc = "2.0.4"
+log = "0.4.20"
+env_logger = "0.10.1"
 encoding_rs_io = "0.1.7"
-reqwest = { version = "0.11.18", features = ["blocking", "json", "rustls-tls", "rustls-tls-native-roots", "brotli"], default-features = false }
-url = "2.4.0"
-sysinfo = "0.29.3"
-thiserror = "1.0.44"
-clap_complete = "4.3.1"
-anyhow = "1.0.71"
+reqwest = { version = "0.11.23", features = ["blocking", "json", "rustls-tls", "rustls-tls-native-roots", "brotli"], default-features = false }
+url = "2.4.1"
+sysinfo = "0.29.11"
+thiserror = "1.0.56"
+clap_complete = "4.3.2"
+anyhow = "1.0.79"
 comfy-table = "7.1.0"
 
 [dev-dependencies]
 pretty_assertions = "1.4.0"
-duct = "0.13.6"
-test-log = "0.2.12"
+duct = "0.13.7"
+test-log = "0.2.14"
 
 [build-dependencies]
 embed-resource = "1.8.0"
