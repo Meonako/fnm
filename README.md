@@ -4,7 +4,7 @@
   <a href="https://github.com/Schniz/fnm/actions"><img src="https://img.shields.io/github/actions/workflow/status/Schniz/fnm/rust.yml?branch=master&label=workflow" alt="GitHub Actions workflow status" /></a>
 </h1>
 
-> :rocket: Fast and simple Node.js version manager, built in Rust
+> 🚀 Fast and simple Node.js version manager, built in Rust
 
 > [Changes in this repo](#fork-changes)
 
@@ -14,13 +14,13 @@
 
 ## Features
 
-:earth_americas: Cross-platform support (macOS, Windows, Linux)
+🌎 Cross-platform support (macOS, Windows, Linux)
 
-:sparkles: Single file, easy installation, instant startup
+✨ Single file, easy installation, instant startup
 
-:rocket: Built with speed in mind
+🚀 Built with speed in mind
 
-:open_file_folder: Works with `.node-version` and `.nvmrc` files
+📂 Works with `.node-version` and `.nvmrc` files
 
 ## Installation
 
@@ -44,7 +44,7 @@ On other operating systems, upgrading `fnm` is almost the same as installing it.
 
 `--install-dir`
 
-Set a custom directory for fnm to be installed. The default is `$HOME/.fnm`.
+Set a custom directory for fnm to be installed. The default is `$XDG_DATA_HOME/fnm` (if `$XDG_DATA_HOME` is not defined it falls back to `$HOME/.local/share/fnm` on linux and `$HOME/Library/Application Support/fnm` on MacOS).
 
 `--skip-shell`
 
