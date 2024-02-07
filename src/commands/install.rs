@@ -87,7 +87,7 @@ impl Command for Install {
                 let available_versions: Vec<_> = remote_node_index::list(&config.node_dist_mirror)
                     .map_err(|source| Error::CantListRemoteVersions { source })?;
                 let picked_version = available_versions
-                    .last()
+                    .first()
                     .ok_or(Error::CantFindLatest)?
                     .version
                     .clone();
